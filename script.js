@@ -8,7 +8,8 @@ const alhamdulillahDecrimentBtn = document.getElementById('alhamdulillahDecrimen
 
 const allahAkberDisplay = document.getElementById('allahAkberDisplay')
 const allahAkberIncrimentBtn = document.getElementById('allahAkberIncrimentBtn')
-const allahAkberDecrimentBtn = document.getElementById('allahAkberDecrimentBtn')
+const allahAkberDecrimentBtn = document.getElementById('allahAkberDecrimentBtn') 
+
 
 const resetBtn = document.getElementById('resetBtn')
 
@@ -19,7 +20,7 @@ let allahAKberInitialValue = 0;
 subhanAllahIncrimentBtn.addEventListener('click', function () {
 
     if (subhanAllahInitialValue === 33) {
-        return alert("Subhan Allah Complete. Please Fillup anoter one")
+        return alert("Subhan Allah Complete. Please Fillup another one")
     }
 
     subhanAllahInitialValue += 1
@@ -42,7 +43,7 @@ subhanAllahDecrimentBtn.addEventListener('click', function () {
 alhamdulillahIncrimentBtn.addEventListener('click', function () {
 
     if (alhamdulillahInitialValue === 33) {
-        return alert("Alhamdulillah Complete. Please Fillup anoter one")
+        return alert("Alhamdulillah Complete. Please Fillup another one")
     }
 
     alhamdulillahInitialValue += 1
@@ -65,7 +66,7 @@ alhamdulillahDecrimentBtn.addEventListener('click', function () {
 allahAkberIncrimentBtn.addEventListener('click', function () {
 
     if (allahAKberInitialValue === 34) {
-        return alert("Allahu akber Complete. Please Fillup anoter one")
+        return alert("Allahu akber Complete. Please Fillup another one")
     }
 
     allahAKberInitialValue += 1
@@ -95,6 +96,11 @@ resetBtn.addEventListener('click',function(){
     allahAKberInitialValue = 0;
 
 })
+   function makeClick(){
+   const element= document.getElementById('icon')
+   const link= element.href = "https://web.facebook.com/sazin.sazin.12";
+  link.textContent = "Click me!"; 
 
 
-
+   }
+ 
