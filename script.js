@@ -28,16 +28,16 @@ subhanAllahIncrimentBtn.addEventListener('click', function () {
 
 })
 
-subhanAllahDecrimentBtn.addEventListener('click', function () {
+// subhanAllahDecrimentBtn.addEventListener('click', function () {
 
-    if (subhanAllahInitialValue === 0) {
-        return alert("You can't added nagetive value")
-    }
+//     if (subhanAllahInitialValue === 0) {
+//         return alert("You can't added nagetive value")
+//     }
 
-    subhanAllahInitialValue -= 1
-    subhanAllahDisplay.innerText = subhanAllahInitialValue
+//     subhanAllahInitialValue -= 1
+//     subhanAllahDisplay.innerText = subhanAllahInitialValue
 
-})
+// })
 
 
 alhamdulillahIncrimentBtn.addEventListener('click', function () {
@@ -51,22 +51,22 @@ alhamdulillahIncrimentBtn.addEventListener('click', function () {
 
 })
 
-alhamdulillahDecrimentBtn.addEventListener('click', function () {
+// alhamdulillahDecrimentBtn.addEventListener('click', function () {
 
-    if (alhamdulillahInitialValue === 0) {
-        return alert("You can't added nagetive value")
-    }
+//     if (alhamdulillahInitialValue === 0) {
+//         return alert("You can't added nagetive value")
+//     }
 
-    alhamdulillahInitialValue -= 1
-    alhamdulillahDisplay.innerText = alhamdulillahInitialValue
+//     alhamdulillahInitialValue -= 1
+//     alhamdulillahDisplay.innerText = alhamdulillahInitialValue
 
-})
+// })
 
 
 allahAkberIncrimentBtn.addEventListener('click', function () {
 
-    if (allahAKberInitialValue === 34) {
-        return alert("Allahu akber Complete. Please Fillup another one")
+    if (allahAKberInitialValue === 33) {
+        return alert("Allahu akber Complete. Please Try again with frist one")
     }
 
     allahAKberInitialValue += 1
@@ -74,16 +74,16 @@ allahAkberIncrimentBtn.addEventListener('click', function () {
 
 })
 
-allahAkberDecrimentBtn.addEventListener('click', function () {
+// allahAkberDecrimentBtn.addEventListener('click', function () {
 
-    if (allahAKberInitialValue === 0) {
-        return alert("You can't added nagetive value")
-    }
+//     if (allahAKberInitialValue === 0) {
+//         return alert("You can't added nagetive value")
+//     }
 
-    allahAKberInitialValue -= 1
-    allahAkberDisplay.innerText = allahAKberInitialValue
+//     allahAKberInitialValue -= 1
+//     allahAkberDisplay.innerText = allahAKberInitialValue
 
-})
+// })
 
 
 resetBtn.addEventListener('click',function(){
